@@ -37,6 +37,7 @@ source $OMARCHY_INSTALL/config/identification.sh
 source $OMARCHY_INSTALL/config/config.sh
 source $OMARCHY_INSTALL/config/detect-keyboard-layout.sh
 source $OMARCHY_INSTALL/config/fix-fkeys.sh
+source $OMARCHY_INSTALL/config/sdcard.sh
 source $OMARCHY_INSTALL/config/network.sh
 source $OMARCHY_INSTALL/config/power.sh
 source $OMARCHY_INSTALL/config/timezones.sh
@@ -48,8 +49,7 @@ show_logo decrypt 920
 show_subtext "Installing terminal tools [2/5]"
 source $OMARCHY_INSTALL/development/terminal.sh
 source $OMARCHY_INSTALL/development/development.sh
-source $OMARCHY_INSTALL/development/nvim.sh
-source $OMARCHY_INSTALL/development/ruby.sh
+source $OMARCHY_INSTALL/development/emacs.sh
 source $OMARCHY_INSTALL/development/docker.sh
 source $OMARCHY_INSTALL/development/firewall.sh
 
@@ -60,7 +60,6 @@ source $OMARCHY_INSTALL/desktop/desktop.sh
 source $OMARCHY_INSTALL/desktop/hyprlandia.sh
 source $OMARCHY_INSTALL/desktop/theme.sh
 source $OMARCHY_INSTALL/desktop/bluetooth.sh
-source $OMARCHY_INSTALL/desktop/asdcontrol.sh
 source $OMARCHY_INSTALL/desktop/fonts.sh
 source $OMARCHY_INSTALL/desktop/printer.sh
 
